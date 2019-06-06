@@ -23,7 +23,9 @@ each type of offer.
 Rewards program users (17000 users x 5 fields)
 
 > gender: (categorical) M, F, O, or null
+
 age: (numeric) missing value encoded as 118
+
 id: (string/hash)
 became_member_on: (date) format YYYYMMDD
 income: (numeric)

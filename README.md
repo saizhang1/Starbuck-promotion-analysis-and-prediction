@@ -40,6 +40,7 @@ Offers sent during 30-day test period (10 offers x 6 fields)
 - id: (string/hash)
 
 > transcript.json 
+
 **Since the transcript.json is way to big to upload in github, I just extract the first 2000 rows to show an example.**
 
 Event log (306648 events x 4 fields)
@@ -51,3 +52,5 @@ Event log (306648 events x 4 fields)
 - amount: (numeric) money spent in "transaction"
 - reward: (numeric) money gained from "offer completed"
 - time: (numeric) hours after start of test
+
+

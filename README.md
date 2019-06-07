@@ -94,4 +94,6 @@ Here is another small analysis about the revenue, number of users when one singl
 
 ### Most predictive features of the customers
 
+![Capture1](https://user-images.githubusercontent.com/36822899/59094181-e755f700-8915-11e9-86d0-daa965dfc987.PNG)
+
 You can see from this graph, the most predictive that the feature can be effient is ‘age’, ‘income’, and ‘difficuty’ of the offer. Which can influence their decision to purchase or not, or to be impacted by the offers or not.

@@ -53,4 +53,45 @@ Event log (306648 events x 4 fields)
 - reward: (numeric) money gained from "offer completed"
 - time: (numeric) hours after start of test
 
+## Key Findings
 
+Before start to clean the data. I think is better to define our customers and divide them into different groups based on their purchasing behaviours.
+
+Group 1: customers effected by promotion
+
+- Behaviors 1: Offer received — offer viewed — transaction — offer completed
+- Behaviors 2: Offer received — offer viewed — transaction (In case of informational offer will not have offer completed)
+
+Group 2: customers not effected by promotions
+
+- Behaviors 1: Offer received
+- Behaviors 2: Offer received — offer viewed
+
+Group 3: loyal customers (buy Starbucks anyway)
+
+- Behaviors 1: transaction — offer received
+- Behaviors 2: transaction — offer received — offer viewed
+- Behaviors 3: offer received — transaction
+- Behaviors 4: offer received — transaction — offer viewed
+
+### Demographic and revenue
+
+![1__hl4j0Roh3Tz3spNrZHSZw](https://user-images.githubusercontent.com/36822899/59093824-220b5f80-8915-11e9-8ad8-6ce489ef9177.png)
+
+In general, there are more customers who are impacted by discount than other types of promotions. The informational offers are provided less to the customers.
+
+![1_tdrfYJY1byeHsTUT4URwdQ](https://user-images.githubusercontent.com/36822899/59093982-731b5380-8915-11e9-9980-147b9ef28d65.png)
+
+In Bogo offers, the f19421c1d4aa40978ebb69ca19b0e20d offer has the best performance, it generated the higest revenue while the cost is not vey high.
+
+In discount offers, fafdcd668e3743c1bb461111dcafc2a4 offers definitely has the best performance, generated the highest revenue and the cost is reasonable.
+
+In informational offer, 3f207df678b143eea3cee63160fa8bed is the best, higher revenue and lower cost.
+
+![Capture](https://user-images.githubusercontent.com/36822899/59094035-9514d600-8915-11e9-98d9-2ae05d561b56.PNG)
+
+Here is another small analysis about the revenue, number of users when one single user is provided by 1 type, 2 types or 3 types of offers. You can clearly see when the user is provided 2 types of promotions, it will generate more transction/revenue.
+
+### Most predictive features of the customers
+
+You can see from this graph, the most predictive that the feature can be effient is ‘age’, ‘income’, and ‘difficuty’ of the offer. Which can influence their decision to purchase or not, or to be impacted by the offers or not.
